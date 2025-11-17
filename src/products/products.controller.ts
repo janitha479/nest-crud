@@ -30,6 +30,8 @@ export class ProductsController {
   update(@Param('id') id: string, @Body() dat) {
     return this.productsService.update(+id, dat);
   }
+
+  //this is delete method
   @Delete(':id')
   remove(@Param('id') id: string) {
     return this.productsService.remove(+id);
