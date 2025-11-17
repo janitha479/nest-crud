@@ -74,8 +74,8 @@ The application is organized into the following modules:
 ### Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <project-directory>
+git repo clone janitha479/nest-crud
+cd nest-crud
 ```
 
 ### Install Dependencies
@@ -90,7 +90,6 @@ Create a `.env` file in the root directory with the following variables:
 
 ```env
 DATABASE_URL="mysql://username:password@localhost:3306/database_name"
-JWT_SECRET="your-jwt-secret"
 PORT=3000
 ```
 
